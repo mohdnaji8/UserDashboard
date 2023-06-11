@@ -1,0 +1,45 @@
+body {
+    font-family: 'Cairo', Arial, sans-serif;
+}
+#menu_color:focus {
+    background-color: #9d1e15;
+}
+#display_submenu {
+    display: none;
+
+}#padding_menu {
+background-color: #01a252;
+ }
+
+
+.page-sidebar .page-sidebar-menu > li.active.open > a:hover ,
+.page-sidebar .page-sidebar-menu > li.active.open > a {
+     background-color: #ff8284;
+     border-top-color: transparent;
+     color: #ffffff;
+ }
+.page-sidebar .page-sidebar-menu li.active > .sub-menu {
+    display: none;
+}
+.page-sidebar .page-sidebar-menu > li {
+    padding-top: 10px;
+}
+html {
+    overflow-y: scroll;
+}
+.form-group label {
+
+    font-weight: 500;
+
+}
+.form-wizard .steps>li.active>a.step .number {
+    background-color: #ff756f;
+    color: #fff;
+}
+.progress-bar-success {
+    background-color: #ff756f;
+}
+.form-wizard .steps>li.done>a.step .number {
+    background-color: #aab0ff;
+    color: #fff;
+}
